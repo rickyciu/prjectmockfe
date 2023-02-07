@@ -1,0 +1,49 @@
+@keyframes pan {
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.background {
+  display: grid;
+  place-items: center;
+  background-image: url("../public/images/low-poly-grid-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: pan 10s infinite alternate linear;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  } 
+
+.form {
+  background-color: black;
+  padding: 4rem;
+  width: 30rem;
+  border-radius: 2rem;
+}
+
+.title--login {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.text--style {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.button--text {
+  font-family: Arial, Helvetica, sans-serif;;
+  background-color: rgb(74, 135, 192);
+}
+
+.input--style{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(10, 8, 8);
+}

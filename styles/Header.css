@@ -1,0 +1,21 @@
+.end{
+    margin-left:auto;
+}
+
+.nav-item{
+    margin:0 40px;
+    font-size: 1.4rem;
+}
+
+.nav-link{
+    size:50px;
+}
+
+.navbar{
+    height:100px;
+    padding :40px;
+}
+
+a{
+    color:white;
+}

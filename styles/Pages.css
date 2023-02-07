@@ -1,0 +1,251 @@
+
+.latar{
+    background-image: url("../public/images/background1.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+  }
+
+.tulis-tengah{
+  text-align: center;
+  color : whitesmoke
+}
+  /* Home */
+.home-content{
+    margin-top :1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .home-detail{
+    line-height: 3rem;
+   }
+
+  .home-box-game{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .home-left{
+    text-align: left;
+  }
+  
+  .home-edit-button{
+    color: brown;
+    background-color: bisque;
+    border:0;
+    box-shadow: 1px 1px 1px 1px;
+    width: 50%;
+  }
+  /* Profile Page */
+  .profile-profile-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .profile-right-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 30rem;
+    width: 30rem;
+    padding : 3rem;
+    }
+  
+  .profile-left-profile{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 30rem;
+    width: 30rem;
+    position : relative;
+    flex-direction: column;
+  }
+  
+  label{
+    font-weight: 700;
+  }
+  
+ 
+  
+  
+  .form-label{
+    color: aliceblue;
+  }
+  
+  img{
+    height:100%;
+    width: 100%;
+  }
+  
+  .profile-foto{
+    height:15rem;
+    width: 15rem;
+    background-color: #61dafb;
+  }
+  
+  .profile-pict{
+    height: 95%;
+    width :95%;
+  }
+  
+  li{
+    color: aliceblue;
+  }
+  .profile-badge{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20%;
+    width: 50%;
+}
+
+.profile-badge-list{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-gold{
+    background-color: gold;
+}
+
+.profile-silver {
+    background-color: silver;
+}
+
+.profile-bronze {
+    background-color: brown;
+}  
+
+  /* Leaderboard */
+  .lead-badge-req{
+    color: aliceblue;
+    margin :2rem;
+  }
+
+
+/* Landing Page */
+
+.land-box-main{
+    height: 35rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.land-main-word{
+    width: 70%;
+    text-align: center;
+}
+
+.land-title{
+    color:red;
+    font-weight: 700;
+    line-height: 5rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    perspective: 50rem;
+    margin-bottom: 3rem;
+    size: 10rem;
+}
+
+@keyframes animasi {
+  0%{
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+  3%{
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+  }
+  25%{
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: 1.5rem;
+  }
+  28%{
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+  100%{
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 3rem;
+  }
+}
+
+.land-span-1{
+  animation: animasi 12s 3s infinite;
+}
+
+.land-span-2{
+  animation: animasi 12s 6s infinite;
+}
+.land-span-3{
+  animation: animasi 12s 9s infinite;
+}
+.land-span-4{
+  animation: animasi 12s 12s infinite;
+}
+
+span{
+  text-transform: uppercase;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
+.x{
+  color:blue;
+}
+
+.o{
+  color:red;
+}
+
+.sama{
+  color : white;
+}
+
+.scoring{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.pp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.totalscore{
+  font-weight: 700;
+  display:flex;
+  justify-content: center;
+  width : 50%;
+}
+
+.wrong{
+  color : red;
+}
